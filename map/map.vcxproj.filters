@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="msg">
+      <UniqueIdentifier>{00bfee4e-fabe-40d0-97c2-271e5c5bd25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_map">
+      <UniqueIdentifier>{e2d4b9e6-effd-4ce0-aded-2dcabd230124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="w_thread">
+      <UniqueIdentifier>{2627a911-4733-4c54-b42e-da90a63d662d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="actor">
+      <UniqueIdentifier>{07db44d0-7607-4e73-a219-02160e494986}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\msg\msg_mgr.cpp">
+      <Filter>msg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\msg\msg.cpp">
+      <Filter>msg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game_map\game_map.cpp">
+      <Filter>game_map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\w_thread\w_thread.cpp">
+      <Filter>w_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\w_thread\w_thread_mgr.cpp">
+      <Filter>w_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actor\actor.cpp">
+      <Filter>actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\msg\msg.h">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\msg\msg_mgr.h">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game_map\game_map.h">
+      <Filter>game_map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\w_thread\w_thread.h">
+      <Filter>w_thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\w_thread\w_thread_mgr.h">
+      <Filter>w_thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global.h" />
+    <ClInclude Include="..\actor\actor.h">
+      <Filter>actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

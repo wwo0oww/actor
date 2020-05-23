@@ -1,0 +1,2 @@
+void actor_test() {
+}
